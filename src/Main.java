@@ -10,7 +10,7 @@ public class Main {
             System.out.println(numero);
 
         }catch (NumberFormatException e){
-            System.err.printf("Uma string nao pode ser convertida para um numero inteiro");
+            System.err.printf("A string só pode ser convertida para um numero inteiro se tiver numeros válidos na string");
         }
 
     }
